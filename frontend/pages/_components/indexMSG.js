@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+// 'message': "Hello world!",
+// 'people': ["Aa", "Bb", "Cc"]
+
 
 const IndexMSG = () => {
     const [msg, setMsg] = useState(null);
