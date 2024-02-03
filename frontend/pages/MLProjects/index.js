@@ -7,7 +7,7 @@ export default function Home() {
             <h1 className={styles.container_title}>HackDavis x AISC <br />Machine Learning Projects</h1>
             <div className={styles.container_inside}>
                 <div className={styles.container_button}>
-                    <a href="/MLProjects/breastCancer">MLProjects</a>
+                    <a href="/MLProjects/breastCancer" style={{textDecoration: 'none', fontWeight: 'bold'}}>MLProjects</a>
                 </div>
                 <div className={styles.container_image}>
                     <Image src="/index/Home.png" alt="Home" width={400} height={500} quality={100} />
