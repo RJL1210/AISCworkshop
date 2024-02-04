@@ -35,6 +35,9 @@ export default function MLProjects() {
   return (
     <div className={styles.container}>
       <div className={styles.container_inside}>
+      <div className={styles.container_homebutton}>
+                    <a href="/MLProjects/" style={{textDecoration: 'none', fontWeight: 'bold'}}>Home</a>
+        </div>
         <div className={styles.container_inside_window}>
           <div className={styles.container_inside_window_Card} style={{ backgroundColor: "" }}>
             <h1>Machine Learning Models</h1>
